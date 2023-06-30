@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../Page.css";
+import Button from '@material-ui/core/Button';
 
 const Sidebar = () => {
   return (
@@ -32,14 +33,16 @@ const Sidebar = () => {
                 &nbsp &nbsp
               </div>
               <div class="w-100">
-                <button
-                  type="button"
-                  class="btn btn-primary pull-right w-100"
+                <Button
+                  // type="button"
+                  // class="btn btn-primary pull-right w-100"
                   id="btnDo"
+                  variant="contained" 
+                  color="primary"
                   //   onclick="btnDo_OnClick()"
                 >
                   MakeGenerate Parameters
-                </button>
+                </Button>
               </div>
             </div>
             <div id="tab-content" class="tab-content">

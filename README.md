@@ -68,3 +68,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## Troubleshooting
+If got error:
+npm ERR! While resolving: string-generator-react@0.1.0
+npm ERR! Found: react@18.2.0
+npm ERR! node_modules/react
+npm ERR!   react@"^18.2.0" from the root project
+
+Use:
+###npm config set legacy-peer-deps true
+
+
+
+
+
